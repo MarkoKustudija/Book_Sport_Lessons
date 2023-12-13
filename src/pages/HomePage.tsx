@@ -1,42 +1,44 @@
-import studentsImg from '../assets/students.jpg';
-import listImg from '../assets/list.jpg';
-import certificateImg from '../assets/certificate.jpg';
+// import studentsImg from '../assets/students.jpg';
+// import listImg from '../assets/list.jpg';
+// import certificateImg from '../assets/certificate.jpg';
+import sports from '../assets/sports.jpeg';
+import sports1 from '../assets/sports1.jpeg';
+import sports3 from '../assets/sports3.jpeg';
 
 export default function HomePage() {
   return (
     <main id="home-page">
       <h2>Our Mission: Your Success</h2>
       <section>
-        <img src={studentsImg} alt="A group of students" />
+        <img src={sports} alt="A group of students" />
         <div>
           <h3>What we do</h3>
           <p>
-            ReactMentoring is a platform for React developers to find mentors
-            who can help them with their React-related questions and problems.
-            We are a community of React developers who want to help each other
-            succeed.
+            Learn Sports is a platform where you can book your lessons with proffesional coach for any sport you decide to play,
+            or where you can find your oponent to play against.
           </p>
         </div>
       </section>
 
       <section>
-        <img src={listImg} alt="A list of sessions" />
+        <img src={sports1} alt="A list of sports" />
         <div>
           <h3>What we offer</h3>
           <p>
-            We offer a variety of mentoring sessions, from one-on-one mentoring
-            to group mentoring sessions. Browse our available sessions to find
-            the one that best fits your needs.
+            We offer a variety of  sport lessons, from one-on-one lesson
+            or group lessons. Browse our available lessons to find
+            the one that best fits your needs. Here you can also find oponents you can play with based on 
+            your rank.
           </p>
         </div>
       </section>
       <section>
-        <img src={certificateImg} alt="A certificate" />
+        <img src={sports3} alt="Diploma" />
         <div>
           <h3>What you get</h3>
           <p>
-            No matter if you are a beginner or an experienced React developer,
-            we are here to help you level up your React skills.
+            No matter if you are a beginner or your already played some sports,
+            we are here to help you level up your sport skills.
           </p>
         </div>
       </section>

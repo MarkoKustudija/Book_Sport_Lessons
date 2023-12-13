@@ -22,7 +22,7 @@ function MainHeader() {
       )}
       <header id="main-header">
         <NavLink to="/">
-          <h1>ReactMentoring</h1>
+          <h1>Learn Sports </h1>
         </NavLink>
         <nav>
           <ul>
