@@ -6,7 +6,7 @@ export type Session = {
   title: string;
   summary: string;
   description: string;
-  date: string;
+  date: Date;
   image: string;
   duration: number;
 };
